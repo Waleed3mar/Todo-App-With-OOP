@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:  Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(90deg, #131313, #5e5c5e);
+    color: white;
+}
+.title{
+    font-size: 50px;
+    padding: 10px;
+    margin: 30px 0px;
+    text-align: center;
+}
+.warnMsg{
+    padding: 10px;
+    margin: 20px 30px ;
+    /* background-color: ; */
+    float: left;
+    background-color: #e91e1eb0;
+    border-radius: 5px;
+    display:none;
+    transition: all 0.4s ease-in-out;
+}
+
+.list{
+    list-style: none;
+}
+ul label {
+    display:inline ;
+    padding: 10px;
+    margin-bottom: 3px;
+}
+ul li {
+    position: relative;
+    width: 600px;
+    height: 50px;
+    border:1px solid rgba(117, 117, 117,.0);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    transition: all .3s ease-in-out;
+}
+.Lists{
+    /* text-align:center; */
+    width:800px;
+    margin:30px auto;
+    padding: 30px;
+}
+.addTask{
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+    width: 800px;
+    margin: 30px auto ;
+}
+#add{
+    background-color: white;
+    width: 43px;
+    padding: 0px 10px;
+    color:black;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-weight: bold;
+    line-height: 43px;
+    position: absolute;
+    top: -2px;
+    right:4px;
+    transition: all 0.3s ease-in-out;
+}
+#add:hover{
+    background-color: rgb(100, 100, 255);
+    color: white;
+}
+input,span{
+    font-weight: bold;
+}
+#todayNew{
+    padding: 10px;
+    width: 750px;
+    border: none;
+    border-radius: 10px;
+    background-color:rgba(116, 112, 150, 0.5);
+    color: white;
+    font-size:17px;
+    outline: none;
+}
+.doneBtn{
+    /* float: right; */
+    color: white;
+    position: absolute;
+    right:20px;
+    top: 6px;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: #36e91e;
+    margin-bottom:3px ;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.doneBtn:hover{
+    background-color: #1f7e13;
+}
+.redoBtn{
+    /* float: right; */
+    color: white;
+    position: absolute;
+    right:20px;
+    top: 6px;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: #e9dc1e;
+    margin-bottom:3px ;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.redoBtn:hover{
+    background-color: #7e6e13;
+}
+i{transition: all .3s ease-in-out;}
+.iHover{
+    color:#E91E63;
+    transition: all .3s ease-in-out;
+}
+.deleteBtn{
+    color: white;
+    position: absolute;
+    right:-40px;
+    top: 6px;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom:3px ;
+    cursor: pointer;
+    width: 31px;
+    height: 35px;
+    transition: all .3s ease-in-out;
+}
+
+.title1{
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+label{font-size: 25px;}
+
+.done{
+    color:rgba(110, 110, 110,1);
+    background-color:rgba(117, 117, 117,.3);
+    text-decoration: line-through;
+}
+.line{
+    width: 100%;
+    height: 47px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    /* position: absolute; */
+    }
+    .completed{
+        color: rgba(212, 212, 212, 0.726)
+    }
